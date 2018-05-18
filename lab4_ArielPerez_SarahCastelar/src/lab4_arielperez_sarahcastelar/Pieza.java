@@ -10,7 +10,7 @@ package lab4_arielperez_sarahcastelar;
  * @author ariel
  */
 public abstract class Pieza {
-    public abstract void mover();
+    public abstract void mover(String coordenadaPieza, String coordenadaMover);
    // public abstract void comer();
     
     

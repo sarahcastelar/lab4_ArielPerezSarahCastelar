@@ -11,7 +11,7 @@ package lab4_arielperez_sarahcastelar;
  */
 public class Mago extends Pieza{
     
-    public  void mover(){
+    public  void mover(String coordenadaPieza, String coordenadaMover){
         
     }
 }//fin de la clase

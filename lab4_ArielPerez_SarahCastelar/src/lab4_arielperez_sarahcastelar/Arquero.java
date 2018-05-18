@@ -10,7 +10,7 @@ package lab4_arielperez_sarahcastelar;
  * @author ariel
  */
 public  class Arquero extends Pieza {
-    public void mover(){
+    public void mover(String coordenadaPieza, String coordenadaMover){
         System.out.println("perro");
     }
     

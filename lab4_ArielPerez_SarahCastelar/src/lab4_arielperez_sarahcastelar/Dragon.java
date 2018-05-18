@@ -11,7 +11,7 @@ package lab4_arielperez_sarahcastelar;
  */
 public  class Dragon  extends Pieza {
     
-    public void mover(){
+    public void mover(String coordenadaPieza, String coordenadaMover){
     
         System.out.println("hola");
     }
