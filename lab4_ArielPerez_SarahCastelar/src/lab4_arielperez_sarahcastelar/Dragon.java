@@ -11,7 +11,7 @@ package lab4_arielperez_sarahcastelar;
  */
 public  class Dragon  extends Pieza {
     
-    public void mover(String coordenadaPieza, String coordenadaMover){
+    public void mover(String coordenadaPieza, String coordenadaMover, Object [][] mat){
     
         String posPieza [] = coordenadaPieza.split(",");
         String posMover [] = coordenadaMover.split(",");

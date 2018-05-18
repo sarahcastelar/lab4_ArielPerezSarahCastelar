@@ -100,6 +100,8 @@ public class Lab4_ArielPerez_SarahCastelar {
                 mat[9][9] = 'c';
                 
                 imprimirMatriz(mat);
+                
+                
             }
         }
         

@@ -11,7 +11,7 @@ package lab4_arielperez_sarahcastelar;
  */
 public class Rey extends Pieza {
 
-    public void mover(String coordenadaPieza, String coordenadaMover) {
+    public void mover(String coordenadaPieza, String coordenadaMover, Object [][] mat) {
         String posPieza[] = coordenadaPieza.split(",");
         String posMover[] = coordenadaMover.split(",");
         String xpp = posPieza[0], ypp = posPieza[1], xpm = posMover[0], ypm = posMover[1];
