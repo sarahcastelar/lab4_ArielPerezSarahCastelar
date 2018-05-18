@@ -17,7 +17,23 @@ public  class Dragon  extends Pieza {
         String posMover [] = coordenadaMover.split(",");
         String xpp = posPieza[0], ypp = posPieza[1], xpm = posMover[0], ypm = posMover[1];
         int xposPieza = Integer.parseInt(xpp), yposPieza = Integer.parseInt(ypp), xposMover = Integer.parseInt(xpm), yposMover = Integer.parseInt(ypm);
-        
+         //SE MUEVE DIAGONAL
+          Object [][]temporal = new Object [10][10];
+         if (Math.abs(xposPieza-xposMover) == Math.abs(yposPieza-yposMover)) {
+            temporal[xposPieza][yposPieza] = mat[xposPieza][yposPieza];
+                mat[xposPieza][yposPieza] = null;
+                mat[xposMover][yposMover] = temporal[xposPieza][yposPieza];
+        }
+         
+         for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {
+                if (mat[i][j] == (null)) {
+                     System.out.print("[" + " " + "]");
+                }else 
+                    System.out.print("[" + mat[i][j] + "]");
+            }
+            System.out.println();
+        }
         
         
         
