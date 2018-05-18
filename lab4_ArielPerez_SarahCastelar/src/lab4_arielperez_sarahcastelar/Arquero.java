@@ -15,6 +15,7 @@ public  class Arquero extends Pieza {
         String posMover [] = coordenadaMover.split(",");
         String xpp = posPieza[0], ypp = posPieza[1], xpm = posMover[0], ypm = posMover[1];
         int xposPieza = Integer.parseInt(xpp), yposPieza = Integer.parseInt(ypp), xposMover = Integer.parseInt(xpm), yposMover = Integer.parseInt(ypm);
+        
     }
     
     
