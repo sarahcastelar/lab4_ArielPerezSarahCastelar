@@ -11,7 +11,10 @@ package lab4_arielperez_sarahcastelar;
  */
 public  class Arquero extends Pieza {
     public void mover(String coordenadaPieza, String coordenadaMover){
-        System.out.println("perro");
+        String posPieza [] = coordenadaPieza.split(",");
+        String posMover [] = coordenadaMover.split(",");
+        String xpp = posPieza[0], ypp = posPieza[1], xpm = posMover[0], ypm = posMover[1];
+        int xposPieza = Integer.parseInt(xpp), yposPieza = Integer.parseInt(ypp), xposMover = Integer.parseInt(xpm), yposMover = Integer.parseInt(ypm);
     }
     
     
