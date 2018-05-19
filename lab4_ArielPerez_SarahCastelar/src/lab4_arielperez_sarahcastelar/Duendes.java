@@ -27,9 +27,20 @@ public class Duendes extends Pieza{
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
                 if (mat[i][j] == (null)) {
-                     System.out.print("[" + " " + "]");
-                }else 
-                    System.out.print("[" + mat[i][j] + "]");
+                    System.out.print("[" + " " + "]");
+                } else if (mat[i][j] instanceof Caballeros) {
+                    System.out.print("[" + "C" + "]");
+                } else if (mat[i][j] instanceof Dragon) {
+                    System.out.print("[" + "F" + "]");
+                } else if (mat[i][j] instanceof Duendes) {
+                    System.out.print("[" + "D" + "]");
+                } else if (mat[i][j] instanceof Arquero) {
+                    System.out.print("[" + "A" + "]");
+                } else if (mat[i][j] instanceof Rey) {
+                    System.out.print("[" + "R" + "]");
+                } else if (mat[i][j] instanceof Mago) {
+                    System.out.print("[" + "M" + "]");
+                } 
             }
             System.out.println();
         }
